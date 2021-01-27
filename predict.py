@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 
 print("Loading Pix2Pix checkpoint..")
-model = Pix2Pix({'checkpoint': '210121_092658_edges2sunflowers_tf-2.4.0@last.h5'}).model
+model = Pix2Pix({'checkpoint': 'last.h5'}).model
 # model = Pix2Pix({'checkpoint': None}).model
 
 # input_image = Image.open('/Users/nono/Desktop/flower.jpg')

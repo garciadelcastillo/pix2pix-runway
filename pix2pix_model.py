@@ -36,7 +36,7 @@ class Pix2Pix():
         if checkpoint_path is not None: 
             self.model = tf.keras.models.load_model(checkpoint_path)
         else:
-            self.model = tf.keras.models.load_model('210121_001707_edges2daisies_tf-2.4.0@199.h5')
+            self.model = tf.keras.models.load_model('last.h5')
 
 
     # Generate an image based on a 256 by 256 input shape:
